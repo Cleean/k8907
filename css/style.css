@@ -1,0 +1,347 @@
+/*公用样式*/
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+ul li{
+    list-style:none;
+}
+body{
+    font-family:"宋体";
+    background:white;
+    text-align:center;
+}
+.clearfix:after{
+    clear:both;
+    content:'';
+    display:block;
+}
+/*其它样式*/
+.nav0{
+    width:100%;
+    height:34px;
+    background:#F9F9F9;
+    border-bottom:1px solid #F2F2F2;
+}
+.nav0>div{
+    width:1202px;
+    margin:0 auto;
+    line-height:34px;
+    font-size:14px;
+}
+.nav0>div p,li,a{
+    color:#646464;
+}
+.nav0>div p{
+   float:left;
+}
+.nav0>div ul{
+    float:right;
+}
+.nav0>div ul li{
+    float:left;
+    margin-left:20px;
+}
+.nav0>div ul li span{
+    color:#FF2832;
+}
+
+/*logo*/
+.logo{
+    width:1202px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-around;
+    padding-top:15px;
+}
+.logo .logomiddle{
+    width:632px;
+    height:50px;
+}
+.search{
+    width:632px;
+    height:50px;
+    border:2px solid red;
+    text-align:left;
+}
+.search input{
+    border:none;
+    width:523px;
+    height:50px;
+}
+.search span{
+   display:inline-block;
+    height:50px;
+    background:#F9F9F9;
+    width:100px;
+    vertical-align:top;
+    line-height:50px;
+    text-align:center;
+}
+.hotsearch{
+    display:flex;
+    justify-content:space-around;
+    font-size:13px;
+    padding-top:5px;
+}
+.hotsearch span,a{
+    color:#646464;
+}
+.hotsearch ul li{
+    float: left;
+    padding-right: 20px;
+}
+
+.btn button{
+    width:70px;
+    height:40px;
+    background:#F6F6F6;
+    color:#7A6464;
+    font-size:15px;
+    font-weight:bold;
+    border:none;
+}
+.btn .shopping{
+    background:#FF2832;
+    color:#fff;
+}
+.btn .mylist{
+    border:#dcdcdc solid 1px;
+    margin-left:-8px;
+}
+/*下面导航*/
+.nav1{
+    width:100%;
+    height:37px;
+    border-bottom:2px solid #ff2832;
+    padding-top:20px;
+}
+.nav1 div{
+    width:1202px;
+    margin:0 auto;
+
+}
+.nav1 div ul{
+    display:flex;
+    line-height:37px;
+    font-weight:bold;
+}
+.nav1 div ul li{
+
+    text-align:center;
+
+
+}
+.nav1 div ul li a{
+   color:black;
+    display:block;
+    padding:0px 12px;
+}
+.nav1 div ul li a:hover{
+    color:#fff;
+    background:#ff2832;
+}
+
+.nav1 div ul li.alllist{
+    background:#ff2832;
+    width:150px;
+    margin-right:35px;
+}
+.nav1 div ul li.alllist a{
+    color:#fff;
+    padding:0;
+}
+
+.section1{
+    width:1202px;
+    margin:0 auto;
+    height:460px;
+    display:flex;
+    background:#FAFAFA;
+    padding-top:20px;
+}
+.section1 nav ul{
+     width:160px;
+    text-align:left;
+     position:relative;
+    padding-top:20px;
+ }
+.section1 nav ul li{
+
+    padding-bottom:10px;
+}
+.section1 nav div{
+    position: absolute;
+    width: 306px;
+    height: 100%;
+    border: 2px solid #ff2832;
+    display: none;
+    top: 0px;
+    left: 150px;
+    Z-index: 14;
+    background: white;
+}
+.section1 nav div ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.section1 nav div ul li a{
+    display:block;
+    width:100px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    background:#ccc;
+    color:#000;
+    margin-left:5px;
+}
+.section1 .section1middle{
+    width:796px;
+    margin-left:20px;
+}
+.section1 .midlletop{
+    width:796px;
+    height:296px;
+    position:relative;
+    overflow:hidden;
+}
+.section1 .midlletop{
+    width:796px;
+    height:296px;
+    position:relative;
+}
+.section1 .midlletop ul{
+   position:absolute;
+    bottom: 10%;
+    left: 20%;
+    Z-index:10;
+}
+.section1 .midlletop ul li{
+   float:left;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    background:#fff;
+    text-align:center;
+    line-height:35px;
+    margin-right:10px;
+}
+.section1 .midlletop button{
+    width:50px;
+     height:100px;
+    background:rgba(0,0,0,0.5);
+    position:absolute;
+    top:50%;
+    margin-top:-50px;
+    text-align:center;
+    line-height:100px;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    border:none;
+}
+.section1 .midlletop button.btnleft{
+ left:5%;
+
+}
+.section1 .midlletop button.btnright{
+   right:5%;
+
+}
+.section1 .midllebottom{
+    width:796px;
+   display:flex;
+}
+.section1 .midllebottom a{
+    display:block;
+}
+
+/*右边*/
+.section1 .section1right{
+    border:1px solid gray;
+    margin-left:20px;
+}
+.section1 .section1right .ptitle{
+    display:flex;
+    justify-content:space-between;
+}
+.section1 .section1right .ptitle span{
+   display:block;
+    width:100px;
+    height:25px;
+    text-align:center;
+    line-height:25px;
+    font-size:15px;
+}
+.section1 .section1right .ptitle .cuxiao{
+
+}
+.section1 .section1right .ptitle .gonggao{
+        background:#ececec;
+}
+.section1 .section1right .middle{
+    border:1px solid lightgray;
+    padding-bottom:15px;
+}
+.section1 .section1right .middle .p1,.p2{
+        font-size:13px;
+        padding:0 10px;
+    line-height: 21px;
+    padding-top:5px;
+}
+.section1 .section1right .middle .p1{
+
+}
+.section1 .section1right .middle .p2{
+    display:none;
+}
+.section1 .section1right .top{
+   width:202px;
+    height:195px;
+    border-bottom:1px solid gray;
+}
+.section1 .section1right .bottom{
+    /*padding-top:5px;*/
+}
+.section1 .section1right .bottom .ptitle1{
+    display:flex;
+}
+.section1 .section1right .bottom .ptitle1 span{
+        display:block;
+        width:67px;
+        height:25px;
+    text-align:center;
+    line-height:25px;
+    font-size:15px;
+}
+.section1 .section1right .bottom .ptitle1 .span2{
+    background:#ececec;
+    border-left:1px solid gray;
+}
+.section1 .section1right .bottom .ptitle1 .span3{
+    background:#ececec;
+    border-left:1px solid gray;
+    width:68px;
+}
+
+.section2{
+    width:1202px;
+    margin:0 auto;
+}
+.section2 h2{
+    border-bottom:2px red solid;
+}
+.section2 div ul{
+    display:flex;
+}
+.section2 div a{
+   display:block;
+    border:1px solid lightgray;
+}
+
+
+
